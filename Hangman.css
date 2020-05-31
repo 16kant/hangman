@@ -1,98 +1,98 @@
 /*Default*/
-body{
-    margin: 0px;
-    border: 6px solid black;
-    background-color: black;
+body {
+  margin: 0px;
+  border: 6px solid black;
+  background-color: black;
 }
-.outer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.outer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 /*Game Title*/
-.title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-/*    background-color: chartreuse;*/
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*    background-color: chartreuse;*/
 }
 /*Word Box*/
-.wordBox{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.wordBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /*Image Area*/
-.hmImages{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-/*    background-color: rebeccapurple;*/
+.hmImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*    background-color: rebeccapurple;*/
 }
 /*Keypad Area*/
-.keypad{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-/*    background-color: blue;*/
+.keypad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*    background-color: blue;*/
 }
 /*Hint Box*/
-.hintBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hintBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*Score Box*/
-.scoreBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.scoreBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*About Me*/
-.aboutMe{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 /*Phone Style*/
-@media screen and (min-width: 300px) and (max-width:500px){
-body{
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  body {
     margin: 0px;
     border: 6px solid black;
     background-color: black;
-}
-.outer{
+  }
+  .outer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border: 6px solid white;
     border-radius: 16px;
-}
-/*Game Title*/
-.title{
+  }
+  /*Game Title*/
+  .title {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 40px;
-/*    background-color: chartreuse;*/
+    /*    background-color: chartreuse;*/
     font-size: 20px;
-}
-.title h1{
+  }
+  .title h1 {
     margin: 0 0 0 0;
     font-family: cursive;
     letter-spacing: 8px;
-    color: #EEEEEE;
+    color: #eeeeee;
     text-shadow: 2px 2px 4px gray, 0 0 25px red;
-}
-/*Word Box*/
-.wordBox{
+  }
+  /*Word Box*/
+  .wordBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,48 +104,48 @@ body{
     color: black;
     background-color: white;
     border: 8px solid black;
-/*    border-bottom:  8px solid black;*/
+    /*    border-bottom:  8px solid black;*/
     border-radius: 22px;
-    box-shadow: 4px 6px 8px rgba(0, 0, 0, .5);
-}
-#ques{
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.5);
+  }
+  #ques {
     padding: 2px;
     margin: 0px;
     font-size: 22px;
-}
-#ans{
+  }
+  #ans {
     margin: 0px 0 12px 0px;
     font-size: 24px;
     font-weight: 800;
     text-shadow: -1px 1px 2px #555555;
-}
-/*Image Area*/
-.hmImages{
+  }
+  /*Image Area*/
+  .hmImages {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 200px;
-/*    background-color: rebeccapurple;*/
-}
-#hmimg{
+    /*    background-color: rebeccapurple;*/
+  }
+  #hmimg {
     width: 96%;
     height: 90%;
     border: 4px solid black;
     border-radius: 20px;
-}
-/*Keypad Area*/
-.keypad{
+  }
+  /*Keypad Area*/
+  .keypad {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 120px;
-/*    background-color: blue;*/
+    /*    background-color: blue;*/
     text-align: center;
-}
-.keys{
+  }
+  .keys {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -160,13 +160,13 @@ body{
     background-color: white;
     border: 1px solid black;
     border-radius: 20px;
-    box-shadow: 4px 6px 8px rgba(0, 0, 0, .5);
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.5);
     outline: none;
-}
-.keys:hover{
+  }
+  .keys:hover {
     cursor: pointer;
-}
-#restart{
+  }
+  #restart {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -178,22 +178,22 @@ body{
     font-weight: 800;
     font-family: monospace;
     letter-spacing: 2px;
-    color: #EEEEEE;
-    background-color: rgba(255, 0, 0, .3);
+    color: #eeeeee;
+    background-color: rgba(255, 0, 0, 0.3);
     border: 2px solid white;
     border-radius: 16px;
-    box-shadow: 4px 6px 8px rgba(0, 0, 0, .5);
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 4px black;
     outline: none;
-}
-#restart:hover{
+  }
+  #restart:hover {
     cursor: pointer;
-}
-#restart:active{
+  }
+  #restart:active {
     transform: translateY(4px);
-}
-/*Hint Box*/
-.hintBox{
+  }
+  /*Hint Box*/
+  .hintBox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,20 +205,20 @@ body{
     border-radius: 10px;
     text-shadow: 1px 1px 2px #555555;
     margin: 6px 2px 2px 2px;
-/*    background-color: deeppink;*/
+    /*    background-color: deeppink;*/
     background-color: white;
-}
-.hintAlign{
+  }
+  .hintAlign {
     font-weight: 800;
-}
-/*Score Box*/
-.scoreBox{
+  }
+  /*Score Box*/
+  .scoreBox {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 96%;
     height: 24px;
-/*    background-color: chocolate;*/
+    /*    background-color: chocolate;*/
     background-color: white;
     font-family: monospace;
     font-size: 18px;
@@ -229,9 +229,9 @@ body{
     border: 4px solid black;
     border-radius: 10px;
     margin: 2px;
-}
-/*About Me*/
-.aboutMe{
+  }
+  /*About Me*/
+  .aboutMe {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -243,49 +243,49 @@ body{
     font-family: monospace;
     font-size: 14px;
     font-weight: 800;
-/*    background-color: crimson;*/
+    /*    background-color: crimson;*/
     background-color: white;
     border: 4px solid black;
     border-radius: 10px;
     margin: 2px;
-}
-.aboutMe p{
+  }
+  .aboutMe p {
     margin: 0;
-}
+  }
 }
 /*Desktop Style*/
-@media screen and (min-width: 501px){
-body{
+@media screen and (min-width: 501px) {
+  body {
     margin: 0px;
     border: 6px solid black;
     background-color: black;
-}
-.outer{
+  }
+  .outer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border: 6px solid white;
     border-radius: 16px;
-}
-/*Game Title*/
-.title{
+  }
+  /*Game Title*/
+  .title {
     width: 100%;
-/*    background-color: chartreuse;*/
+    /*    background-color: chartreuse;*/
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
-}
-.title h1{
+  }
+  .title h1 {
     margin: 0 0 0 0;
     font-family: cursive;
     letter-spacing: 16px;
-    color: #EEEEEE;
+    color: #eeeeee;
     text-shadow: 2px 2px 4px gray, 0 0 25px red;
-}
-/*Word Box*/
-.wordBox{
+  }
+  /*Word Box*/
+  .wordBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -297,37 +297,37 @@ body{
     background-color: white;
     border: 8px solid black;
     border-radius: 24px;
-    box-shadow: 4px 6px 8px rgba(0, 0, 0, .5);
-}
-#ques{
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.5);
+  }
+  #ques {
     padding: 6px;
     margin: 0px;
     font-size: 22px;
-}
-#ans{
+  }
+  #ans {
     margin: 12px 0 12px 0px;
     font-size: 26px;
     font-weight: 800;
     text-shadow: -1px 1px 2px #555555;
-}
-/*Image Area*/
-.hmImages{
+  }
+  /*Image Area*/
+  .hmImages {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 400px;
-/*    background-color: rebeccapurple;*/
-}
-#hmimg{
+    /*    background-color: rebeccapurple;*/
+  }
+  #hmimg {
     width: 90%;
     height: 90%;
     border: 4px solid black;
     border-radius: 20px;
-}
-/*Keypad Area*/
-.keypad{
+  }
+  /*Keypad Area*/
+  .keypad {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -335,10 +335,10 @@ body{
     width: 50%;
     height: 360px;
     padding: 20px 0 20px 0;
-/*    background-color: blue;*/
+    /*    background-color: blue;*/
     text-align: center;
-}
-.keys{
+  }
+  .keys {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -353,14 +353,14 @@ body{
     background-color: white;
     border: 1px solid black;
     border-radius: 20px;
-    box-shadow: 4px 6px 8px rgba(0, 0, 0, .5);
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 1px 2px #555555;
     outline: none;
-}
-.keys:hover{
+  }
+  .keys:hover {
     cursor: pointer;
-}
-#restart{
+  }
+  #restart {
     width: 26%;
     height: 18%;
     padding: 13px 13px 13px 13px;
@@ -369,22 +369,22 @@ body{
     font-weight: 800;
     font-family: cursive;
     letter-spacing: 2px;
-    color: #EEEEEE;
-    background-color: rgba(255, 0, 0, .3);
+    color: #eeeeee;
+    background-color: rgba(255, 0, 0, 0.3);
     border: 2px solid white;
     border-radius: 20px;
-    box-shadow: 4px 6px 8px rgba(0, 0, 0, .5);
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 4px black;
     outline: none;
-}
-#restart:hover{
+  }
+  #restart:hover {
     cursor: pointer;
-}
-#restart:active{
+  }
+  #restart:active {
     transform: translateY(4px);
-}
-/*Hint Box*/
-.hintBox{
+  }
+  /*Hint Box*/
+  .hintBox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -400,20 +400,20 @@ body{
     border: 8px solid black;
     border-radius: 10px;
     background-color: white;
-/*    background-color: deeppink;*/
-}
-.hintAlign{
+    /*    background-color: deeppink;*/
+  }
+  .hintAlign {
     margin: 20px 0px 20px 0px;
     font-size: 24px;
     text-shadow: 1px 1px 2px #555555;
-}
-#hint{
+  }
+  #hint {
     margin: 0px 0px 0px 0px;
     font-size: 20px;
     text-shadow: 1px 1px 2px #555555;
-}
-/*Score Box*/
-.scoreBox{
+  }
+  /*Score Box*/
+  .scoreBox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -423,7 +423,7 @@ body{
     height: 70px;
     margin: 4px;
     background-color: white;
-/*    background-color: chocolate;*/
+    /*    background-color: chocolate;*/
     font-family: cursive;
     font-size: 26px;
     font-weight: 800;
@@ -432,9 +432,9 @@ body{
     text-shadow: 4px 2px 4px #555555;
     border: 8px solid black;
     border-radius: 10px;
-}
-/*About Me*/
-.aboutMe{
+  }
+  /*About Me*/
+  .aboutMe {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -448,12 +448,12 @@ body{
     font-size: 24px;
     font-weight: 800;
     background-color: white;
-/*    background-color: crimson;*/
+    /*    background-color: crimson;*/
     border: 8px solid black;
     border-radius: 10px;
     text-shadow: 4px 2px 4px #555555;
-}
-.aboutMe p{
+  }
+  .aboutMe p {
     margin: 0;
-}
+  }
 }

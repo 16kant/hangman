@@ -1,57 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="Hangman.css" rel="stylesheet" type="text/css">
-        <title>Hangman</title>
-    </head>
-    <body>
-        <div class="outer">
-<!--Game Title-->
-            <div class="title">
-                <h1>HANGMAN</h1>
-            </div>
-<!--Word Box-->
-            <div class="wordBox">
-                <p id="ques">Question</p>
-                <p id="ans">Answer</p>
-            </div>
-<!--Game Area-->
-<!--            <div class="playArea">-->
-        <!--Hangman Images-->
-                <div class="hmImages">
-                    <img id="hmimg" src="hm0.png" alt="hangman">
-                </div>
-        <!--Keypad Area-->
-                <div class="keypad">
-                    <!--JS Buttons with class="keys"-->
-                    <button id="restart">New</button>
-                </div> 
-<!--            </div>-->
-<!--Detail Area-->
-<!--            <div class="detailArea">-->
-<!--                <div class="detailBox">-->
-        <!--Hint Box-->
-                    <div class="hintBox">
-                        <p class="hintAlign">Hint:</p>
-                        <p id="hint">Hint for the secret word!</p>
-                    </div>
-        <!--Score Box-->
-                    <div class="scoreBox">
-                        <p id="solved">Solved: 0</p>
-                    </div>
-        
-<!--                </div>-->
-                <div class="aboutMe">
-                    <!--<p>Krishan Kant Soni (Krishna)</p>
-                    <p><a href="https://www.facebook.com/16kant" target="_blank">Facebook</a>&nbsp;
-                    <a href="https://www.instagram.com/i.m.krishnaa" target="_blank">Instagram</a></p>-->
-                    <p>Total: 20</p>
-                </div>
-<!--            </div>-->
-        </div>
-<!--JS-->
-        <script src="Hangman.js">
-        </script>
-    </body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Hangman.css" rel="stylesheet" type="text/css" />
+    <title>Hangman</title>
+  </head>
+  <body>
+    <div class="outer">
+      <!--Game Title-->
+      <div class="title">
+        <h1>HANGMAN</h1>
+      </div>
+      <!--Word Box-->
+      <div class="wordBox">
+        <p id="ques">Question</p>
+        <p id="ans">Answer</p>
+      </div>
+      <!--Game Area-->
+      <!--Hangman Images-->
+      <div class="hmImages">
+        <img id="hmimg" src="hm0.png" alt="hangman" />
+      </div>
+      <!--Keypad Area-->
+      <div class="keypad">
+        <!--JS Buttons with class="keys"-->
+        <button id="restart">New</button>
+      </div>
+      <!--Detail Area-->
+      <!--Hint Box-->
+      <div class="hintBox">
+        <p class="hintAlign">Hint:</p>
+        <p id="hint">Hint for the secret word!</p>
+      </div>
+      <!--Score Box-->
+      <div class="scoreBox">
+        <p id="solved">Solved: 0</p>
+      </div>
+
+      <div class="aboutMe">
+        <p>Krishan Kant Soni (Krishna)</p>
+        <p>
+          <a href="https://www.facebook.com/16kant" target="_blank">Facebook</a
+          >&nbsp;
+          <a href="https://www.instagram.com/i.m.krishnaa" target="_blank"
+            >Instagram</a
+          >
+        </p>
+        <!-- <p>Total: 20</p> -->
+      </div>
+    </div>
+    <!--JS-->
+    <script src="Hangman.js"></script>
+  </body>
 </html>
